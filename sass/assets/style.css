@@ -1,79 +1,59 @@
 body {
-  color: red;
-}
+  color: red; }
 
 a:link {
-  color: red;
-}
+  color: red; }
 
 .page-heading {
-  color: red;
-}
+  color: red; }
 
 .note-author {
   padding-left: 3em;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 .note-body {
-  padding-left: 6em;
-}
+  padding-left: 6em; }
 
 .site-nav {
-  display: flex;
-}
-.site-nav > li {
-  margin-top: 0;
-}
-.site-nav > li.is-active {
-  display: block;
-}
+  display: flex; }
+  .site-nav > li {
+    margin-top: 0; }
+    .site-nav > li.is-active {
+      display: block; }
 
 .media {
-  background-color: #eee;
-}
-.media::before {
-  display: table;
-  content: " ";
-}
-.media::after {
-  clear: both;
-}
+  background-color: #eee; }
+  .media::before {
+    display: table;
+    content: " "; }
+  .media::after {
+    clear: both; }
 
 .alert-info {
-  padding: 0.3em 0.5em;
+  padding: .3em .5em;
   border: 1px solid blue;
   color: blue;
-  background-color: lightblue;
-}
+  background-color: lightblue; }
 
 .alert-danger {
-  padding: 0.3em 0.5em;
+  padding: .3em .5em;
   border: 1px solid red;
   color: red;
-  background-color: pink;
-}
+  background-color: pink; }
 
 .message, .message-info {
-  padding: 0.3em 0.5em;
-  border-radius: 0.5em;
-}
+  padding: .3em .5em;
+  border-radius: .5em; }
 
 .message-info {
   color: blue;
-  background-color: lightblue;
-}
+  background-color: lightblue; }
 
 .nav-links > li:nth-child(2) {
-  transition-delay: 0.1s;
-}
+  transition-delay: 0.1s; }
 
 .nav-links > li:nth-child(3) {
-  transition-delay: 0.2s;
-}
+  transition-delay: 0.2s; }
 
 .nav-links > li:nth-child(4) {
-  transition-delay: 0.3s;
-}
-
-/*# sourceMappingURL=style.css.map */
+  transition-delay: 0.3s; }
